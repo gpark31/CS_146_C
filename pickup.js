@@ -1,0 +1,3 @@
+var pickup = document.getElementById("pickup")
+  
+window.pickup.innerHTML = JSON.parse(localStorage.getItem("firstName")) + "<br>" + JSON.parse(localStorage.getItem("lastName")) +"<br>" + JSON.parse(localStorage.getItem("number")) + "<br>" + JSON.parse(localStorage.getItem("building")) + "<br>" + JSON.parse(localStorage.getItem("floor")) + "<br>" + JSON.parse(localStorage.getItem("room")) + "<br>" + JSON.parse(localStorage.getItem("time"))
